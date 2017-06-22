@@ -1,0 +1,137 @@
+body, html, div, span, h1, h2, h3, h4, ul, ol, li, p, button {
+  margin: 0;
+  font-family: "montserrat"
+;}
+
+#container {
+  max-width: 300px;
+  width: 100%;
+  margin: 30px auto;
+  background: #FFCC5C;
+}
+
+h1 {
+  padding: 15px;
+  text-align: center;
+  background: #555;
+  color: #FFEEAD;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#inputBox {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+input {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  background: #FFEEAD;
+  color: #333;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  flex-grow: 1;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#okBtn {
+  width: 19%;
+  height: 40px;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 17px;
+  flex-grow: 1;
+  background: #ff6f69;
+  color: #333;
+  cursor: pointer;
+}
+
+#okBtn:hover {
+  background: #999;
+  color: #FFEEAD;
+  transition: background 0.2s ease-in-out;
+  transition: color 0.1s ease-in-out;
+}
+
+#countBtn {
+  width: 100%;
+  display: flex;
+}
+
+.btn {
+  flex-grow: 1;
+  border: none;
+  height: 70px;
+  margin: 20px 0px 0px 0px;
+  font-size: 25px;
+  color: #555;
+  outline: none;
+  cursor: pointer;
+}
+
+#sum {
+  background: #96CEB4;
+}
+
+#sum:hover {
+  background: #56AEB4;
+  color: #FFEEAD;
+  transition: background 0.2s ease-in-out;
+  transition: color 0.1s ease-in-out;
+}
+
+#subs {
+  background: #FF6F69;
+}
+
+#subs:hover {
+  background: #CF3F39;
+  color: #FFEEAD;
+  transition: background 0.2s ease-in-out;
+  transition: color 0.1s ease-in-out;
+}
+
+p {
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  color: #444;
+}
+
+#bar {
+  width: 100%;
+  height: 60px;
+  background: #555;
+  padding: 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#infoPer {
+  top: -10px;
+  left: 104px;
+  position: absolute;
+  color: #FFEEAD;
+}
+
+#barProgress {
+  height: 100%;
+  background: #88D8B0;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
